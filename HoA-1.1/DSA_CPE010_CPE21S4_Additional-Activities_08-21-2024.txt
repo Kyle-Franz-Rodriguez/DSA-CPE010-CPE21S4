@@ -1,0 +1,90 @@
+ADDITIONAL ACTIVITIES 
+-- PSEUDOCODES --
+
+---------------------------------------------------------------------------------
+Additional Activity 1:
+
+#Design an algorithm for finding the sum of the numbers 2, 4, 6, 8, …, n
+
+start program
+	add variable "sum" = 0
+	get input
+	if not even, end program
+	else
+	place input to variable "n"
+	add "n" to "sum", then go back to get input
+	if sum has 0 value, end program
+end program
+---------------------------------------------------------------------------------
+
+Additional Activity 2:
+
+#Write an algorithm to read 100 numbers and then display the sum.
+
+start program
+	add variable "sum" = 0
+	get input
+	place input to variable "n"
+	count the numbers of "n" and place to variable "total"
+	add "n" to "sum"
+	if "total" reached 100, end program
+	else go back to get input
+end program
+---------------------------------------------------------------------------------
+
+Additional Activity 3:
+
+#Write an algorithm to read two numbers then display the largest.
+
+start program
+	get 2 inputs
+	place each input to variables "n1" and "n2"
+	compare "n1" and "n2"
+	if n1 > n2, print n1
+	if n2 > n1, print n2
+	if n1 = n2, print "neither"
+end program
+---------------------------------------------------------------------------------
+
+Additional Activity 4:
+
+#Write an algorithm to read two numbers then display the smallest
+
+start program
+	get 2 inputs
+	place each input to variables "n1" and "n2"
+	compare "n1" and "n2"
+	if n1 > n2, print n2
+	if n2 > n1, print n1
+	if n1 = n2, print "neither"
+end program
+---------------------------------------------------------------------------------
+
+Additional Activity 5:
+
+#Write an algorithm to read three numbers then display the largest
+
+start program
+	get 2 inputs
+	place each input to variables "n1", "n2", "n3"
+	compare "n1", "n2", "n3"
+	if n1 > n2 && n3, print n1
+	if n2 > n1 && n3, print n2
+	if n3 > n1 && n2, print n3
+	if n1 && n2 > n3, print "n1 and n2"
+	if n1 && n3 > n2, print "n1 and n3"
+	if n2 && n3 > n1, print "n2 and n3"
+	if n1 = n2 = n3, print "none"
+end program
+
+---------------------------------------------------------------------------------
+
+Additional Activity 6:
+
+#Write an algorithm to read 100 numbers then display the largest
+
+start program
+	read 100 inputs
+	compare all inputs
+	print the highest
+end program
